@@ -63,18 +63,18 @@
         foreach($errorMsg as $error)
         {
         ?>
-          <div class="alert alert-danger">
+    
             <b><?php echo $error; ?></b>
-          </div>
-              <?php
+
+<?php
         }
       }
       if(isset($loginMsg))
       {
       ?>
-        <div class="alert alert-success">
+    
           <b><?php echo $loginMsg; ?></b>
-        </div>
+ 
           <?php
     }
 ?>
